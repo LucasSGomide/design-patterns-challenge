@@ -3,10 +3,16 @@
   "module": "src/index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "strategy": "bun run ./src/01-strategy/index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.0.0"
   }
 }
