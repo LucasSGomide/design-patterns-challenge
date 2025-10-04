@@ -20,7 +20,7 @@ The goal is **understanding trade-offs**, not building production systems.
 ### Milestone 1 – Core Design Patterns
 
 #### Week 1 – Strategy Pattern
-- **Challenge:** Implement a mini “payment processor” with interchangeable strategies (credit card, PayPal, crypto).
+- **Challenge:** Implement a mini “payment processor” with interchangeable strategies (credit card and crypto).
 - **Extra:** Add a new payment type without modifying existing code.
 - **Learning:** Decoupling behavior from context, open/closed principle.
 
@@ -111,14 +111,22 @@ Each folder contains:
 ---
 
 ## 🚀 Progress Tracking
-- [ ] Week 1 – Strategy  
+- [X] Week 1 – Strategy  
 - [ ] Week 2 – Observer  
 - [ ] Week 3 – Factory  
 - [ ] Week 4 – Adapter  
 - [ ] Week 5 – CQRS  
 - [ ] Week 6 – Event Sourcing  
 - [ ] Week 7 – Message Queue  
-- [ ] Week 8 – Circuit Breaker  
+- [ ] Week 8 – Circuit Breaker
+
+## ⚙️ Run the Code
+On the root folder run the following scripts:
+
+``` bash
+make run-01-strategy
+
+```
 
 ---
 
