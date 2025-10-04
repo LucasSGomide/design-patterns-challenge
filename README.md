@@ -91,6 +91,7 @@ The goal is **understanding trade-offs**, not building production systems.
 ## ✅ Deliverables
 Each challenge goes in its own folder:
 
+```
 src
 └── challenges
     ├── 01-strategy
@@ -101,6 +102,7 @@ src
     ├── 06-event-sourcing
     ├── 07-message-queue
     └── 08-circuit-breaker
+```
 
 Each folder contains:
 - Code (TypeScript)
