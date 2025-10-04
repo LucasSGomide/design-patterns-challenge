@@ -124,8 +124,9 @@ Each folder contains:
 On the root folder run the following scripts:
 
 ``` bash
-make run-01-strategy
+bun install
 
+make run-01-strategy
 ```
 
 ---
